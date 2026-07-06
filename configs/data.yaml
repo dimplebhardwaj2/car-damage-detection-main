@@ -1,0 +1,35 @@
+# Car Damage Detection — YOLO Dataset Configuration
+# Developer: Saksham Pathak (github.com/parthmax2)
+#
+# NOTE: `path` is resolved relative to this file's location.
+# With this file at configs/data.yaml, ../data points to
+# the project-root data/ directory created by scripts/prepare_data.py.
+
+path: ../data
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 8
+
+names:
+  0: no_damage
+  1: lost_parts
+  2: torn
+  3: dent
+  4: paint_scratch
+  5: hole
+  6: broken_glass
+  7: broken_lamp
+
+# ── Expected layout (created by scripts/prepare_data.py) ──────────
+# data/
+# ├── images/
+# │   ├── train/   *.jpg / *.png
+# │   ├── val/
+# │   └── test/
+# └── labels/
+#     ├── train/   *.txt  (YOLO format: class cx cy w h, normalised)
+#     ├── val/
+#     └── test/
+# ──────────────────────────────────────────────────────────────────
