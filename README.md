@@ -319,12 +319,4 @@ Model weights (`best.pt`) are derived from Ultralytics YOLOv11, which is license
 
 ---
 
-## Author
 
-**Saksham Pathak**
-- GitHub: [@parthmax2](https://github.com/parthmax2)
-- Project: [car-damage-detection](https://github.com/parthmax2/car-damage-detection)
-
----
-
-*Built with [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) and [Gradio](https://gradio.app).*
